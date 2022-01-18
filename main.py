@@ -10,7 +10,7 @@ from aiogram.types import InputFile, ParseMode
 
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton,Message, ReplyKeyboardRemove,InlineKeyboardMarkup,InlineKeyboardButton,CallbackQuery
 import captcha_func
-TOKEN = "1401709439:AAF1G1VbZKEWg8sVs3OcBQ8hL0GeAsePBuY"
+TOKEN = "5046098449:AAF8GV6Ftc3HJX_v7fa8kVGNejwge2GiX1A"
 conn = sqlite3.Connection("shop_originals.db", check_same_thread=False)
 
 # DB connection
@@ -315,7 +315,7 @@ async def check_captcha(message:types.Message,state:FSMContext):
 
 @dp.message_handler(lambda message:message.text == "🔗Referral Link")
 async def check_captcha(message:types.Message,state:FSMContext):
-    ref_link = 'https://t.me/test_shop_bot_example_bot?start={}'.format(message.from_user.id)
+    ref_link = 'https://t.me/RTB_airdrop_bot?start={}'.format(message.from_user.id)
     await message.answer("""💥 Congratulations, {}
 
 🎉 Share this link with your friends and earn 5 CYC for each referral!
