@@ -10,7 +10,7 @@ from aiogram.types import InputFile, ParseMode
 
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton,Message, ReplyKeyboardRemove,InlineKeyboardMarkup,InlineKeyboardButton,CallbackQuery
 import captcha_func
-TOKEN = "5046098449:AAF8GV6Ftc3HJX_v7fa8kVGNejwge2GiX1A"
+TOKEN = "5098506729:AAEOPBp7RWfNWw9-R1iaI4OHH-_WFg6e2d8"
 conn = sqlite3.Connection("shop_originals.db", check_same_thread=False)
 
 # DB connection
